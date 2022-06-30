@@ -1,0 +1,19 @@
+#img-david {
+  width: 500px;
+}
+
+.fonte-laranja {
+  color: #d68700;
+}
+
+.fonte-azul {
+  color: #00e7c7;
+}
+
+.container-titulo {
+  display: block;
+  float: left;
+}
+.container-img {
+  float: right;
+}

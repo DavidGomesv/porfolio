@@ -1,0 +1,92 @@
+<!--Main Navigation-->
+<header>
+  <!-- Navbar -->
+  <nav
+    class="navbar navbar-expand-lg navbar-dark d-none d-lg-block"
+    style="z-index: 2000"
+  >
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand nav-link" [routerLink]="'home'">
+        <img
+          src="../../assets/logo.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" [routerLink]="'home'"
+              >Início</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="''" rel="nofollow">Nada ainda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="''">Nada</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav list-inline">
+          <!-- Icons -->
+          <li class="">
+            <a
+              class="nav-link"
+              href="https://www.youtube.com/channel/UC5MPMeWaC25fApFiO0VLISw"
+              rel="nofollow"
+              target="_blank"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+          <li class="">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/davidgomesv/"
+              rel="nofollow"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.instagram.com/davidgomes_/"
+              rel="nofollow"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/DavidGomesv"
+              rel="nofollow"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+</header>
