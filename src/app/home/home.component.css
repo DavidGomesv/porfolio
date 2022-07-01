@@ -10,10 +10,42 @@
   color: #00e7c7;
 }
 
-.container-titulo {
-  display: block;
-  float: left;
+.container-home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  margin-top: 100px;
+  background-color: rgb(72, 72, 72);
 }
+
+.container-titulo {
+  padding: 0 5% 0 2%;
+  background-color: aqua;
+}
+
+.subtitulo {
+  background-color: #d68700;
+}
+
+.titulo {
+  margin-top: 10px;
+  background-color: #88662a;
+}
+
 .container-img {
-  float: right;
+  padding-right: 2%;
+  background-color: chartreuse;
+}
+
+@media (max-width: 830px) {
+  .container-home {
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #img-david {
+    width: 400px;
+  }
 }
