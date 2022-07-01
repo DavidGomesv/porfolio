@@ -1,0 +1,63 @@
+header {
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.navegacao {
+  width: 50%;
+  text-align: start;
+}
+
+.navegacao a {
+  margin-right: 15px;
+}
+
+.navegacao a:hover {
+  color: #d68700;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.social {
+  width: 50%;
+  text-align: end;
+}
+
+.social a {
+  margin-left: 15px;
+}
+
+.social i:hover {
+  color: #00e7c7;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .container-menu {
+    flex-direction: column;
+  }
+
+  .navegacao {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navegacao a {
+    margin: 0 10px 0 10px;
+  }
+
+  .social {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social a {
+    margin: 0 10px 0 10px;
+  }
+}
